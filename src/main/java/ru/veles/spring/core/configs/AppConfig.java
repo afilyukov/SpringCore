@@ -1,4 +1,4 @@
-package ru.veles.spring.core;
+package ru.veles.spring.core.configs;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

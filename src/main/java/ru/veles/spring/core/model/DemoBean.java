@@ -1,4 +1,4 @@
-package ru.veles.spring.core;
+package ru.veles.spring.core.model;
 
 import org.springframework.stereotype.Component;
 
