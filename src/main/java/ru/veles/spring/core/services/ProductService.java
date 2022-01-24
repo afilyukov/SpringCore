@@ -11,9 +11,20 @@ import java.util.List;
 @Component
 public class ProductService {
 
+
+
     @Autowired
     @Qualifier("productInMemoryRepository")
     private ProductRepository productRepository;
+
+    //@Autowired
+    //public void setProductRepository(ProductRepository productRepository) {
+    //    this.productRepository = productRepository;
+    //}
+
+    //public ProductService(ProductRepository productRepository) {
+    //    this.productRepository = productRepository;
+    //}
 
     @Value("12234-42342-234234")
     private String identifier;
