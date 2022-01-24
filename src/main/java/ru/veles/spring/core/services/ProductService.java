@@ -18,10 +18,6 @@ public class ProductService {
     @Value("12234-42342-234234")
     private String identifier;
 
-    public ProductService(ProductRepository productRepository) {
-        this.productRepository = productRepository;
-    }
-
     public void addProduct(int id, String title, int cost){
         productRepository.addProduct(new Product(id,title,cost));
     }
